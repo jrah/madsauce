@@ -1,8 +1,8 @@
 // Project Variables
 // Project: WFP UI
 
-$sans-serif-stack:    "lato", -apple-system, BlinkMacSystemFont, system, sans-serif;
-$serif-stack:         "aleo", -apple-system, BlinkMacSystemFont, system, serif;
+$sans-serif-stack:    "lato", -apple-system, BlinkMacSystemFont, system, sans-serif !default;
+$serif-stack:         "aleo", -apple-system, BlinkMacSystemFont, system, serif !default;
 $mono-stack:          monospace;
 $base-font-size:      1rem; // 16px
 $base-line-height:    1.500; // 21px
@@ -10,8 +10,8 @@ $small-font-size:     $base-font-size * 0.875; // 14px
 
 $spacing-unit:        0.25rem;
 
-$primary:             #2a93fc;
-$accent:              #1f6ebc;
+$primary:             #2a93fc !default;
+$accent:              #1f6ebc !default;
 
 // Greys gradation
 $grey:                #8c8c8c;
@@ -33,14 +33,14 @@ $blue-lightest:       lighten($blue, 30%);
 
 $brand:               darken($primary, 12%);
 
-$grey-contrast:       #ededed;
+$grey-contrast:       #ededed !default;
 
-$black:               #000000;
-$white:               #ffffff;
-$red:                 desaturate(darken(#e6494a, 5%), 15%);
-$orange:              #ffc759;
-$yellow:              #fcdc5d;
-$green:               #00a878;
+$black:               #000000 !default;
+$white:               #ffffff !default;
+$red:                 desaturate(darken(#e6494a, 5%), 15%) !default;
+$orange:              #ffc759 !default;
+$yellow:              #fcdc5d !default;
+$green:               #00a878 !default;
 
 $text-color:          transparentize($grey-darkest, 0.1) !default;
 $background-color:    transparentize($white, 0.1) !default;
@@ -49,10 +49,10 @@ $background-color:    transparentize($white, 0.1) !default;
 $content-width:       978px !default;
 $max-content-width:   1200px !default;
 
-$sm-screen:           35.5em;
-$md-screen:           48em;
-$lg-screen:           64em;
-$xl-screen:           80em;
+$sm-screen:           35.5em !default;
+$md-screen:           48em !default;
+$lg-screen:           64em !default;
+$xl-screen:           80em !default;
 
 $mqs: (
   sm: 35.5em,
