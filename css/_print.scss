@@ -1,5 +1,4 @@
 // Module: Print Styles
-// Project: WFP UI
 
 @media print {
   * {
@@ -88,19 +87,19 @@
     page-break-inside: avoid;
   }
 
-  .wfp-header-spacer--narrow {
+  .header-spacer--narrow {
     padding: 0;
     overflow: visible;
   }
 
   // Hide certain UI components
-  .wfp-header-int,
-  .wfp-header-ext,
-  .wfp-footer--mini {
+  .header-int,
+  .header-ext,
+  .footer--mini {
     display: none;
   }
 
-  .wfp-menu {
+  .menu {
     display: none;
   }
 
