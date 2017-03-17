@@ -30,7 +30,7 @@
 .bg-black   { @include bg-color($black, $black, 1); }
 .bg-white   { @include bg-color($white, $white, 1); }
 .bg-grey    { @include bg-color($grey, $grey, 1); }
-.bg-blue    { @include bg-color($primary, $primary, 1); }
+.bg-blue    { @include bg-color($blue, $blue, 1); }
 
 .bg-red     { @include bg-color($red, $red, 1); }
 .bg-orange  { @include bg-color($orange, $orange, 1); }
