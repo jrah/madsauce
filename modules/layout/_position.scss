@@ -47,3 +47,12 @@
   @include pos--fill-v;
   @include pos--fill-h;
 }
+
+// -----------------------------------------------------------------------------
+// Background positions
+// -----------------------------------------------------------------------------
+@mixin bg-pos--center { background-position: center;}
+@mixin bg-pos--left { background-position: left;}
+@mixin bg-pos--right { background-position: right;}
+@mixin bg-pos--bottom { background-position: bottom;}
+@mixin bg-pos--top { background-position: top;}

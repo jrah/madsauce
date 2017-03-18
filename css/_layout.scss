@@ -229,3 +229,10 @@
 .fill-h { @include pos--fill-h; }
 .fill-v { @include pos--fill-v; }
 .fill   { @include pos--fill; }
+
+.bg-pos--center { @include bg-pos--center; }
+.bg-pos--left { @include bg-pos--left; }
+.bg-pos--right { @include bg-pos--right; }
+.bg-pos--bottom { @include bg-pos--bottom; }
+.bg-pos--center { @include bg-pos--center; }
+.bg-pos--center { @include bg-pos--center; }
