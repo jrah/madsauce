@@ -170,7 +170,7 @@ a {
   border-bottom: 1px solid $anchor-bottom;
 
   &:visited {
-    color: $blue-darkest;
+    color: darken($anchor-color, 20%);
   }
 
   &:hover {
