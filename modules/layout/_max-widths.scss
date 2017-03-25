@@ -20,10 +20,15 @@ $max-widths: (
 }
 
 // Literal percentage values
+// @mixin max-width($width: none) {
+//   @if $width neq "none" {
+//     max-width: $width + %;
+//   } @else {
+//     max-width: $width;
+//   }
+// }
+// temporary to fix potentially incomplete mixin.  max-width mixin is not used outside of $width === none.
+// This also adds a % which is invalid
 @mixin max-width($width: none) {
-  @if $width neq "none" {
-    max-width: $width + %;
-  } @else {
-    max-width: $width;
-  }
+  max-width: $width;
 }
