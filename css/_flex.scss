@@ -34,3 +34,14 @@
     }
   }
 }
+
+.ai-c {
+  @include align-items(center);
+  @each $mqs, $size in $mqs {
+    @include mq(#{$size}) {
+      &-#{$mqs} {
+        @include align-items(center);
+      }
+    }
+  }
+}
