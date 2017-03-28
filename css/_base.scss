@@ -5,6 +5,7 @@
 $anchor-color: $blue-darker !default;
 $anchor-bottom: $grey-lighter !default;
 $anchor-bottom-hover: $orange !default;
+$anchor-visited: darken($anchor-color, 20%);
 
 // Always hide an element when it has the `hidden` HTML attribute.
 %hidden,
@@ -170,7 +171,7 @@ a {
   border-bottom: 1px solid $anchor-bottom;
 
   &:visited {
-    color: darken($anchor-color, 20%);
+    color: $anchor-visited;
   }
 
   &:hover {
