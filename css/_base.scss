@@ -5,7 +5,7 @@
 $anchor-color: $blue-darker !default;
 $anchor-bottom: $grey-lighter !default;
 $anchor-bottom-hover: $orange !default;
-$anchor-visited: darken($anchor-color, 20%);
+$anchor-visited: darken($anchor-color, 20%) !default;
 
 // Always hide an element when it has the `hidden` HTML attribute.
 %hidden,
