@@ -1,5 +1,10 @@
 .fb {
   @include flexbox;
+  @for $i from 1 through 10 {
+    &--#{$i} {
+      flex: $i;
+    }
+  }
 }
 
 .fd-c {
